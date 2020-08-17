@@ -4,5 +4,7 @@ function theBestlesPlay(musicians,instruments) {
   
   for(var i = 0; i< musicians.length; i++) {
     let string = musicians[i] + instruments[i];
+    counter.push(string);
   }
+  return counter;
 }
