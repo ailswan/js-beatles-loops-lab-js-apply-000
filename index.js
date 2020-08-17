@@ -1,10 +1,10 @@
 // add solution here
 function theBestlesPlay(musicians,instruments) {
-  var counter = [];
+  var array = [];
   
   for(var i = 0; i< musicians.length; i++) {
     let string = musicians[i] + instruments[i];
-    counter.push(string);
+    array.push(string);
   }
-  return counter;
+  return array;
 }
