@@ -2,5 +2,7 @@
 function theBestlesPlay(musicians,instruments) {
   var counter = [];
   
-  for
+  for(var i = 0; i< musicians.length; i++) {
+    let string = musicians[i] + instruments[i];
+  }
 }
