@@ -10,4 +10,6 @@ function theBestlesPlay(musicians,instruments) {
 }
 
 
-function johnLennonFacts()
+function johnLennonFacts(john) {
+  
+}
